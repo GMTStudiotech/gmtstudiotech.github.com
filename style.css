@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 body{
     height:100vh;
     background-color:#212529;
@@ -201,5 +204,7 @@ body{
 
 .about .info p{
     color: #ccc;
-    font-size: 14px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
 }
+
