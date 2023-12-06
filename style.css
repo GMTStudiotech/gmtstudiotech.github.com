@@ -17,7 +17,7 @@ body{
     font-family: "Nova Square",sans-serif;
 }
 .navbar h2{
-    color:#ffb742;
+    color:#8b9fee;
     font-weight: 600;
 
 }
@@ -37,13 +37,13 @@ body{
 
 }
 .navbar ul li:hover a{
-    color:#ffb742;
+    color:#8b9fee;
 }
 .navbar ul li:last-child a{
     margin:0;
 }
 .Login-btn{
-    background-color: #ffb742;
+    background-color: #8b9fee;
     padding:6px 30px;
     border:none;
     font-size:16px;
@@ -68,7 +68,7 @@ body{
     font-weight:600;
 }
 .main h4 span{
-    color:gold;
+    color:#8b9fee;
 
 }
 .main p.title{
@@ -105,7 +105,7 @@ body{
 }
 
 .guarantee .item:hover{
-    border-color: #ffb742;
+    border-color: #8b9fee;
 }
 
 .guarantee .item .icon{
@@ -120,7 +120,7 @@ body{
 }
 
 .guarantee .item:hover .icon{
-    background-color: #ffb742;
+    background-color: #8b9fee;
 }
 
 .guarantee .item .icon i{
@@ -134,7 +134,7 @@ body{
 }
 
 .guarantee .item .info h3{
-    color: #ffb742;
+    color: #8b9fee;
     font-size: 28px;
 }
 
@@ -151,7 +151,7 @@ body{
 }
 
 .guarantee .item:hover > i{
-    color: #ffb742;
+    color: #8b9fee;
 }
 @media screen and (max-width: 480px) {
     
