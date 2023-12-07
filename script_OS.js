@@ -159,7 +159,19 @@ function getChatbotResponse(message) {
         return 'Hi there! 👋';
     } else if (lowerCaseMessage.includes('how are you')) {
         return 'I am just a computer program, but thanks for asking!';
+    } else if (lowerCaseMessage.includes('hi')) {
+        return 'Hi~👋';
+    } else if (lowerCaseMessage.includes('nothing')) {
+        return 'Okay, goodbye!';
+    } else if (lowerCaseMessage.includes('your name')) {
+        return "I'm a chatbot, no specific name here.";
+    } else if (lowerCaseMessage.includes('thank you')) {
+        return 'You\'re welcome! 😊';
+    } else if (lowerCaseMessage.includes('help')) {
+        return 'I can assist you with general queries. Feel free to ask!';
     } else {
-        return 'I did not understand that. Can you please clarify?';
+        return 'I did not understand that. Can you please clarify or ask something else?';
     }
 }
+
+    
