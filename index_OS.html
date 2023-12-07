@@ -31,33 +31,186 @@
     </div>
 <!--Side bar end!!!-->
 <!--Main Content-->
-    <div class="content">
-        <!--Navigation bar-->
-        <nav>
-            <i class='bx bx-menu'></i>
-            <form action="#">
-                <div class="form-input">
-                    <input type="search" placeholder="Search....">
-                    <button class="search-btn" type="submit"><i class='bx bx-file-find' ></i></button>
-                </div>
-            </form>
-            <input type="checkbox" id="theme-toggle" hidden>
-            <label for="theme-toggle" class="theme-toggle"></label>
-            <a href="#">
-                <i class='bx bx-party' ></i>
-                <span class="count">12</span>
-            </a>
-            <a href="#" class="profile">
-                <img src="GMTStudio.png" alt="" srcset="">
-            </a>
+<div class="content">
+    <!-- Navbar -->
+    <nav>
+        <i class='bx bx-menu'></i>
+        <form action="#">
+            <div class="form-input">
+                <input type="search" placeholder="Search...">
+                <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+            </div>
+        </form>
+        <input type="checkbox" id="theme-toggle" hidden>
+        <label for="theme-toggle" class="theme-toggle"></label>
+        <a href="#" class="notif">
+            <i class='bx bx-bell'></i>
+            <span class="count">12</span>
+        </a>
+        <a href="#" class="profile">
+            <img src="images/logo.png">
+        </a>
+    </nav>
 
-        </nav>
-        <!--Navigation bar ends here!!!-->
-    </div>
-<!--Main content-->
+    <!-- End of Navbar -->
+
     <main>
-        <div class="header"></div>
+        <div class="header">
+            <div class="left">
+                <h1>Dashboard</h1>
+                <ul class="breadcrumb">
+                    <li><a href="#">
+                            GMT_OS
+                        </a></li>
+                    /
+                    <li><a href="#" class="active">information</a></li>
+                </ul>
+            </div>
+            <a href="#" class="report">
+                <i class='bx bx-party'></i>
+                <span>celebrate the updata of this version!</span>
+            </a>
+        </div>
+
+        <!-- Insights -->
+        <ul class="insights">
+            <li>
+                <i class='bx bx-calendar-check'></i>
+                <span class="info">
+                    <h3>
+                        1
+                    </h3>
+                    <p>Paid Order</p>
+                </span>
+            </li>
+            <li><i class='bx bx-show-alt'></i>
+                <span class="info">
+                    <h3>
+                        30
+                    </h3>
+                    <p>Site Visit</p>
+                </span>
+            </li>
+            <li><i class='bx bx-line-chart'></i>
+                <span class="info">
+                    <h3>
+                        1000
+                    </h3>
+                    <p>Searches</p>
+                </span>
+            </li>
+            <li><i class='bx bx-dollar-circle'></i>
+                <span class="info">
+                    <h3>
+                        $0.01
+                    </h3>
+                    <p>Total Sales</p>
+                </span>
+            </li>
+        </ul>
+        <!-- End of Insights -->
+        <div class="bottom-data">
+        <div class="system-update">
+            <div class="header">
+                
+                <i class='bx bx-cog'></i>
+                <h3>System Update Information</h3>
+                <i class='bx bx-filter'></i>
+                <i class='bx bx-search'></i>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Update</th>
+                        <th>Update Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>OS Version Beta_1</p>
+                        </td>
+                        <td>5-12-2023</td>
+                        <td><span class="status completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Security Patch</p>
+                        </td>
+                        <td>14-08-2023</td>
+                        <td><span class="status pending">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Feature Upgrade</p>
+                        </td>
+                        <td>14-08-2023</td>
+                        <td><span class="status process">Processing</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+            <!-- Reminders -->
+            <div class="reminders">
+                <div class="header">
+                    <i class='bx bx-note'></i>
+                    <h3>Remiders</h3>
+                    <i class='bx bx-filter'></i>
+                    <i class='bx bx-plus'></i>
+                </div>
+                <ul class="task-list">
+                    <li class="not-completed">
+                        <div class="task-title">
+                            <i class='bx bx-x-circle'></i>
+                            <p>Delta Delta_Galaxy not develop yet</p>
+                        </div>
+                        <i class='bx bx-dots-vertical-rounded'></i>
+                    </li>
+                    <li class="completed">
+                        <div class="task-title">
+                            <i class='bx bx-check-circle'></i>
+                            <p>Drink some water</p>
+                        </div>
+                        <i class='bx bx-dots-vertical-rounded'></i>
+                    </li>
+                    <li class="not-completed">
+                        <div class="task-title">
+                            <i class='bx bx-x-circle'></i>
+                            <p>Update to ChatGMT_Alpha</p>
+                        </div>
+                        <i class='bx bx-dots-vertical-rounded'></i>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- End of Reminders-->
+    <div class="chat-box">
+        <div class="chat-header">
+            <h3>ChatGMT_Alpha</h3>
+            <i class="bx bx-x close-chat"></i>
+        </div>
+        <div class="chat-messages">
+            <!-- Dummy Messages -->
+            <div class="message received">
+                <p>Hello there! 👋</p>
+            </div>
+            <div class="message sent">
+                <p>Hi! How can I help you?</p>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="Type your message...">
+            <button class="send-btn"><i class="bx bx-send"></i></button>
+        </div>
+    </div>
+        </div>
+
     </main>
+
+    
+
     <script src="script_OS.js"></script>
 </body>
 </html>

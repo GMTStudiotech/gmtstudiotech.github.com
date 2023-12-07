@@ -82,11 +82,12 @@ body{
     color: var(--dark);
 }
 
-.sidebar .logo .bx{
+.sidebar .logo .bx {
     min-width: 60px;
     display: flex;
     justify-content: center;
     font-size: 2.2rem;
+    color: #8b9fee; /* Change the color here */
 }
 
 .sidebar .side-menu{
@@ -566,4 +567,84 @@ body{
         left: 200px;
     }
 
+}
+.content .chat-box {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background: var(--light);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    z-index: 3000;
+}
+
+.content .chat-box .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: var(--primary);
+    color: var(--light);
+}
+
+.content .chat-box .chat-header h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content .chat-box .chat-header .close-chat {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.content .chat-box .chat-messages {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px 20px;
+}
+
+.content .chat-box .message {
+    margin-bottom: 10px;
+}
+
+.content .chat-box .message p {
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.content .chat-box .message.sent {
+    background: var(--light-primary);
+    align-self: flex-end;
+}
+
+.content .chat-box .message.received {
+    background: var(--light);
+    align-self: flex-start;
+}
+
+.content .chat-box .chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid var(--grey);
+}
+
+.content .chat-box .chat-input input {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.content .chat-box .chat-input button {
+    background: var(--primary);
+    color: var(--light);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
 }
